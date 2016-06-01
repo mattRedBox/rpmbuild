@@ -105,6 +105,8 @@ install_server() {
  tar -xvzf ${ADMIN_INSTALL_HOME}/storage/storage.tar.gz -C /opt/mint/storage
  tar -xvzf ${ADMIN_INSTALL_HOME}/solr/solr.tar.gz -C /opt/mint/solr
  chown -R redbox:redbox ${ADMIN_INSTALL_HOME}
+ chown -R redbox:redbox ${ADMIN_INSTALL_HOME}/storage/*
+ chown -R redbox:redbox ${ADMIN_INSTALL_HOME}/solr/*
  echo 'finished installing'
 }
 getServerArgs() {

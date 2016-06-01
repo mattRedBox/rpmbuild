@@ -1,13 +1,13 @@
 Name: mint-build-distro-initialdata
-Version: 1.0
-Release: SNAPSHOT20160527074238
+Version: 1.1
+Release: RELEASE
 Summary: mint-build-distro-initialdata
 License: GPLv2
 Group: Application/Internet
 autoprov: yes
 autoreq: yes
 BuildArch: noarch
-BuildRoot: /root/rpmbuild/BUILDROOT/%{name}-%{version}-%{release}.%{buildarch}
+BuildRoot: /root/rpmbuild/BUILDROOT/%{name}-%{version}.%{buildarch}
 
 %description
 unpacks storage and solr initial datafor mint
